@@ -7,6 +7,7 @@
     $rsQUERYmod = mysqli_query($con, $QUERYmod) or die('Error: ' . mysqli_error($con));
     $fileQUERYmod = mysqli_fetch_array($rsQUERYmod);
 ?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -23,7 +24,7 @@
 <div class="position-absolute top-50 start-50 translate-middle">
     <form name="form3" action="procesos/proceEP.php" method="post">
     <h1>Toma De Mediciones De Manómetros De Pozos Petroleros</h1>
-    <h2>Eliminar informacion sobre pozo</h2>
+    <h2>Eliminar información del pozo</h2>
     <label>¿Desea eliminar este pozo del sistema?</label><br/>
     <input type="hidden" name="pozoID" value="<?php echo $fileQUERYmod['pozoID']; ?>"><br/>
     <input type="submit" value="SI" name="btn" data-bs-toggle="modal" data-bs-target="#siModal">
@@ -50,7 +51,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-        <p>Eliminacion Cancelada</p>
+        <p>Eliminación Cancelada</p>
         </div>
     </div>
     </div>
@@ -58,4 +59,3 @@
 </div>
 </body>
 </html>
-<?php

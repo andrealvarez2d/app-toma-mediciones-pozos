@@ -6,6 +6,7 @@
     $rsQUERYmod = mysqli_query($con, $QUERYmod) or die('Error: ' . mysqli_error($con));
     $fileQUERYmod = mysqli_fetch_array($rsQUERYmod);
 ?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -24,7 +25,7 @@
     <h1>Toma De Mediciones De Manómetros De Pozos Petroleros</h1>
     <h2>Modificar Mediciones</h2>
     <input type="hidden" name="medicionID" value="<?php echo $fileQUERYmod['medicionID']; ?>"><br/>
-    <label>Medicion:</label><br/>
+    <label>Medición:</label><br/>
     <input type="number" name="medicion" step="0.01" value="<?php echo $fileQUERYmod['medicion']; ?>" required><br/>
     <label>Fecha:</label><br/>
     <input type="date" name="fecha" value="<?php echo $fileQUERYmod['fecha']; ?>" required><br/>
@@ -41,7 +42,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-        <p>Modificacion Exitosa</p>
+        <p>Modificación Exitosa</p>
         </div>
     </div>
     </div>

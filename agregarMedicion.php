@@ -23,16 +23,16 @@
 <div class="position-absolute top-50 start-50 translate-middle">
     <form name="form4" action="procesos/proceAM.php" method="post">
     <h1>Toma De Mediciones De Manómetros De Pozos Petroleros</h1>
-    <h2>Agregar Medicion</h2>
+    <h2>Agregar Medición</h2>
     <input type="hidden" name="pozoID" value="<?php echo $fileQUERYmod['pozoID']; ?>"><br/>
-    <label>Medicion:</label><br/>
+    <label>Medición:</label><br/>
     <input type="number" name="medicion" step="0.01" required><br/>
     <label>Fecha:</label><br/>
     <input type="date" name="fecha" required><br/>
 
     <br/>
     <input type="submit" value="Guardar" name="btn" data-bs-toggle="modal" data-bs-target="#guardarModal">
-    <a href="pozos.php" class="botones">Regresar a la lista</a>
+    <a href="pozos.php" class="botones">Regresar</a>
     </div>
     <div class="modal fade" id="guardarModal" tabindex="-1" aria-labelledby="guardarModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -42,7 +42,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-        <p>Modificacion Exitosa</p>
+        <p>Medición Agregada Exitosamente</p>
         </div>
     </div>
     </div>

@@ -2,6 +2,7 @@
     include_once('conexion/conexion.php');
     session_start();
 ?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -22,7 +23,7 @@
         <td>ID</td>
         <td>Nombre del pozo</td>
         <td>Extensión</td>
-        <td>Opciones del historico</td>
+        <td>Opciones del histórico</td>
         <td>Opciones del pozo</td>
     </tr>
     <?php
@@ -51,7 +52,7 @@
     ?>
     <br/>
     <a href="agregarPozo.php" title="Agregar" class="botones">Agregar pozo</a>
-    <a href="menu.php" title="Regresar" class="botones">Regresar al menu</a>
+    <a href="menu.php" title="Regresar" class="botones">Regresar al menú</a>
     </div>
 </body>
 </html>

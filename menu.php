@@ -14,6 +14,7 @@
         header('Location: index.php');
         }
 ?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -29,7 +30,7 @@
 <body>
 <div class="position-absolute top-50 start-50 translate-middle">
     <h1>Toma De Mediciones De Manómetros De Pozos Petroleros</h1>
-    <h2>Bienvenido <?php echo $_SESSION['nombreUsuario'];?></h2>
+    <h2>Welcome <?php echo $_SESSION['nombreUsuario'];?></h2>
     <ul class="nav justify-content-center nav-fill bg-light">
     <li class="nav-item">
         <a class="nav-link" href="pozos.php">Pozos Petroleros</a>
@@ -38,7 +39,7 @@
         <a class="nav-link" href="usuarios.php">Opciones del usuario</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="procesos/proceLogout.php">Cerrar Sesion</a>
+        <a class="nav-link" href="procesos/proceLogout.php">Cerrar Sesión</a>
     </li>
 </ul>
     </div>

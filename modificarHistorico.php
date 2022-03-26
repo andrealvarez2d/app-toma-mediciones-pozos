@@ -3,6 +3,7 @@
     session_start();
     $id = $_GET["pozoID"];
 ?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -22,7 +23,7 @@
     <table class="table table-striped table-danger">
     <tr>
         <td>ID</td>
-        <td>Medicion</td>
+        <td>Medición</td>
         <td>Fecha</td>
         <td>ID del Pozo</td>
         <td>Opciones</td>

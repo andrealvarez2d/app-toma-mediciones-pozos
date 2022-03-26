@@ -25,12 +25,12 @@
         if($rsQuery == false){
             session_destroy();
             header('Location: index.php');
-            echo 'error', '<br />';
+            //echo 'error', '<br />';
         }
     }else{
         session_destroy();
         header('Location: index.php');
-        echo 'error', '<br />';
+        //echo 'error', '<br />';
         }
         }
 ?>
@@ -69,7 +69,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-        <p>Registro Exitoso</p>
+        <p>Usuario Registrado Exitosamente</p>
         </div>
     </div>
     </div>

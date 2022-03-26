@@ -14,6 +14,7 @@
         header('Location: index.php');
         }
 ?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -55,7 +56,7 @@
     mysqli_close($con);
     ?>
     <br/>
-    <a href="menu.php" title="Regresar" class="botones">Regresar al menu</a>
+    <a href="menu.php" title="Regresar" class="botones">Regresar</a>
     </div>
 </body>
 </html>

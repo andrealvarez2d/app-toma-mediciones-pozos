@@ -6,6 +6,7 @@
     $rsQUERYmod = mysqli_query($con, $QUERYmod) or die('Error: ' . mysqli_error($con));
     $fileQUERYmod = mysqli_fetch_array($rsQUERYmod);
 ?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -40,7 +41,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-        <p>Modificacion Exitosa</p>
+        <p>Modificación Exitosa</p>
         </div>
     </div>
     </div>

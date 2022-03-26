@@ -15,6 +15,7 @@
         header('Location: index.php');
         }
 ?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -38,7 +39,7 @@
     <input type="password" name="contra" value="<?php echo $fileQUERYmod['password']; ?>" required><br/>
     <br/>
     <input type="submit" value="Modificar" name="btn" data-bs-toggle="modal" data-bs-target="#guardarModal">
-    <a href="usuarios.php" class="botones">Regresar a Usuarios</a>
+    <a href="usuarios.php" class="botones">Regresar</a>
     </div>
     <div class="modal fade" id="guardarModal" tabindex="-1" aria-labelledby="guardarModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -48,13 +49,14 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-        <p>Modificacion Exitosa</p>
+        <p>Modificación Exitosa</p>
         </div>
     </div>
     </div>
     </div>
 </body>
 </html>
+
 <?php
     $user = null;
     $pwd = null;

@@ -14,7 +14,7 @@
     <div class="position-absolute top-50 start-50 translate-middle">
     <form name="form1" action="procesos/proceLogin.php" method="post">
     <h1>Toma De Mediciones De Manómetros De Pozos Petroleros</h1>
-    <h2>Inicio de sesion</h2>
+    <h2>Iniciar sesión</h2>
     <label>Usuario:</label><br/>
     <input type="text" name="usuario" required><br/>
     <label>Password:</label><br/>

@@ -3,6 +3,7 @@
     session_start();
     $id = $_GET["pozoID"];
 ?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -19,7 +20,7 @@
 <body>
 <div class="position-absolute top-50 start-50 translate-middle">
     <h1>Toma De Mediciones De Manómetros De Pozos Petroleros</h1>
-    <h2>Grafica del historico</h2>
+    <h2>Grafica del histórico</h2>
     <canvas id="myChart">
     <script>
     const labels = [

@@ -15,6 +15,7 @@
         header('Location: index.php');
         }
 ?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -57,13 +58,14 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-        <p>Eliminacion Cancelada</p>
+        <p>Eliminación Cancelada</p>
         </div>
     </div>
     </div>
     </div>
 </body>
 </html>
+
 <?php
 
     if(isset($_POST['btn']) && $_POST['btn'] == 'SI'){
