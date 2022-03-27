@@ -29,6 +29,7 @@
 </head>
 <body>
 <div class="position-absolute top-50 start-50 translate-middle">
+    <img src="img/pozo-de-petroleo2.png">
     <h1>Toma De Mediciones De Manómetros De Pozos Petroleros</h1>
     <h2>Welcome <?php echo $_SESSION['nombreUsuario'];?></h2>
     <ul class="nav justify-content-center nav-fill bg-light">

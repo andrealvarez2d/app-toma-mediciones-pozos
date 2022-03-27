@@ -13,6 +13,7 @@
 <body>
     <div class="position-absolute top-50 start-50 translate-middle">
     <form name="form1" action="procesos/proceLogin.php" method="post">
+    <img src="img/pozo-de-petroleo2.png">
     <h1>Toma De Mediciones De Manómetros De Pozos Petroleros</h1>
     <h2>Iniciar sesión</h2>
     <label>Usuario:</label><br/>

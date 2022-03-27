@@ -50,6 +50,7 @@
 <body>
 <div class="position-absolute top-50 start-50 translate-middle">
     <form name="form2" action="registrarUsuario.php" method="post">
+    <img src="img/pozo-de-petroleo2.png">
     <h1>Toma De Mediciones De Manómetros De Pozos Petroleros</h1>
     <h2>Registrar usuario</h2>
     <label>Usuario:</label><br/>
