@@ -36,23 +36,10 @@
     <label>Usuario:</label><br/>
     <input type="text" name="usuario" value="<?php echo $fileQUERYmod['nombreUsuario']; ?>" required><br/>
     <label>Password:</label><br/>
-    <input type="password" name="contra" value="<?php echo $fileQUERYmod['password']; ?>" required><br/>
+    <input type="password" name="contra" required><br/>
     <br/>
-    <input type="submit" value="Modificar" name="btn" data-bs-toggle="modal" data-bs-target="#guardarModal">
+    <input type="submit" value="Modificar" name="btn">
     <a href="usuarios.php" class="botones">Regresar</a>
-    </div>
-    <div class="modal fade" id="guardarModal" tabindex="-1" aria-labelledby="guardarModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-    <div class="modal-content">
-        <div class="modal-header">
-        <h5 class="modal-title" id="guardarModalLabel">Modificar</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-        <p>Modificación Exitosa</p>
-        </div>
-    </div>
-    </div>
     </div>
 </body>
 </html>
